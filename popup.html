@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Autofill</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+<body>
+  <div class="drag-header">
+   <h4>JobQuest AI</h4>
+   <button class="close-btn">&times;</button>
+ </div>
+  <div class="container">
+    <div class="sidebar">
+      <button class="tab-btn active" data-tab="autofill">Autofill</button>
+      <button class="tab-btn" data-tab="chat">Chat</button>
+    </div>
+    <div class="main-content">
+      <div id="autofill" class="tab-content active">
+        <div class="header">
+          <h3>Autofill Assistant</h3>
+          <button id="autofill-btn" class="action-btn">Fill This Form</button>
+        </div>
+        <div id="autofill-status" class="status-message">
+          Click "Fill This Form" to scan the page.
+        </div>
+        <div id="autofill-data" class="data-display"></div>
+      </div>
+
+      <div id="chat" class="tab-content">
+         <div class="header">
+          <h3>Chat with Profile AI</h3>
+          <button id="clear-chat-btn" class="action-btn secondary">Clear Chat</button>
+        </div>
+        <div id="chat-window" class="chat-window">
+          <div class="chat-message bot">Hello! Ask me anything about your profile. Context is maintained across our conversation.</div>
+        </div>
+        <div id="context-info" class="context-info">
+        </div>
+        <div id="scraped-data-info" class="scraped-data-info">
+        </div>
+        <div class="chat-options">
+          <label class="checkbox-container">
+            <input type="checkbox" id="include-scraped-data">
+            <span class="checkmark"></span>
+            Include scraped form data in chat
+          </label>
+        </div>
+        <div class="chat-input-area">
+          <textarea id="chat-input" placeholder="Ask me anything... (Shift+Enter for new line)" rows="1"></textarea>
+          <button id="chat-send-btn" class="action-btn">Send</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="popup.js"></script>
+</body>
+</html>

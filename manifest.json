@@ -1,0 +1,22 @@
+{
+  "manifest_version": 3,
+  "name": "Job Autofill",
+  "version": "1.0",
+  "description": "Autofill job application forms using Gemini",
+  "permissions": ["activeTab", "scripting", "storage"],
+  "web_accessible_resources": [
+    {
+      "resources": [
+        "popup.html", 
+        "popup.css", 
+        "popup.js", 
+        "profile.json" 
+      ],
+      "matches": ["<all_urls>"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {}
+}

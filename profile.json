@@ -1,0 +1,120 @@
+{
+  "personal": {
+    "firstName": "Jatin",
+    "lastName": "Gaur",
+    "gender": "Male",
+    "city": "Prayagraj",
+    "state": "Uttar Pradesh",
+    "country": "India",
+    "onsite": "Yes, if in India",
+    "Phone": "+91-6388587027",
+    "Email": "jatingaurchess@gmail.com",
+    "Disability": "None",
+    "pin code": 211019,
+    "cgpa": 8.37
+  },
+  "profiles": {
+    "linkedin": "https://linkedin.com/in/jatingaur18",
+    "github": "https://github.com/jatingaur18",
+    "portfolio": "https://jughead.co/"
+  },
+  "education": [
+    {
+      "college": "International Institute of Information Technology Naya Raipur",
+      "course": "B.Tech",
+      "branch": "Electronics and Communication",
+      "from": "10/2022",
+      "to": "06/2026",
+      "location": "Raipur, Chhattisgarh",
+      "cgpa": "8.37"
+    }
+  ],
+  "experience": [
+    {
+      "company": "Samsung",
+      "role": "Research Intern",
+      "from": "08/2024",
+      "to": "04/2025",
+      "skills": ["Python", "XML", "Gazebo", "Linux", "Json", "DSA"],
+      "achievements": [
+        "Developed optimized Python script to automate parsing & conversion of JSON floor plan data into XML-based Gazebo .world files.",
+        "Automated generation of Gazebo simulation environments with dynamic object placement and physics simulation (80% time reduction).",
+        "Built scalable solution for multi-floor building layouts with precise wall alignment."
+      ]
+    }
+  ],
+  "opensource": [
+    {
+      "org": "SymPy",
+      "skills": ["Python", "Maths", "Algorithm"],
+      "date": "05/2025",
+      "contributions": [
+        "Resolved issues in continuum mechanics and symbolic integration in beam analysis and limit evaluation modules."
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "name": "JobQuest",
+      "stack": ["HuggingFace", "MongoDB", "Generative AI", "ReactJS"],
+      "date": "07/2024",
+      "repo": "GitHub",
+      "details": [
+        "Built a web app to track resume applications and generate skill tests with AI.",
+        "Used HuggingFace word2vec + cosine similarity for 85% accurate resume scoring.",
+        "Integrated Gemini API to generate skill tests, reducing recruiter workload by 50%."
+      ]
+    },
+    {
+      "name": "Chess Engine",
+      "stack": ["C++", "Bitboards", "AI"],
+      "date": "04/2025",
+      "repo": "GitHub Lichess",
+      "details": [
+        "Used bitboards & pre-computed attack tables for O(1) move generation.",
+        "Optimized Negamax with alpha-beta pruning & killer moves (90% search reduction).",
+        "Multi-threaded bitwise operations → 4x faster move calculation."
+      ]
+    },
+    {
+      "name": "Load Balancer",
+      "stack": ["C++", "Socket Programming"],
+      "date": "12/2023",
+      "repo": "GitHub",
+      "details": [
+        "Designed TCP load balancer handling 50k+ connections/sec.",
+        "Multi-threading & epoll reduced latency by 4x.",
+        "Improved system stability under high traffic."
+      ]
+    },
+    {
+      "name": "Carbon-Credits",
+      "stack": ["Ethereum", "Sepolia API", "Hardhat", "EthersJs", "PostgreSQL"],
+      "date": "02/2024",
+      "repo": "GitHub",
+      "details": [
+        "Built decentralized carbon credit trading platform with React + Solidity.",
+        "Implemented royalty system returning 10% transaction value to NGOs.",
+        "Issued verifiable blockchain proof certificates."
+      ]
+    }
+  ],
+  "achievements": [
+    "Runners-up at Industria Academia Meet IIITNR 2025",
+    "Codeforces Specialist (1489)",
+    "Leetcode Knight (1864)",
+    "ICPC Rank: 889 in India",
+    "JEE Main Math: 99%ile | JEE Adv: 12,000 Rank"
+  ],
+  "skills": {
+    "languages": ["C", "C++", "JavaScript", "Python", "TypeScript"],
+    "frameworks": ["ReactJS", "ExpressJS", "HTML", "CSS", "Node.js"],
+    "tools": ["GNU/Linux", "Redis", "CI/CD", "GitHub Actions", "Git", "Docker", "MongoDB", "Google API", "SQL", "Socket Programming"]
+  },
+  "other data": [
+                  "i have only woked at samsung Research , if asked have you worked in 'XYZ' company ,if its not samsung say no",
+                  "i am only allowed to work in india , and will need scholership to work outside india",
+                  ""
+
+                ]
+}
