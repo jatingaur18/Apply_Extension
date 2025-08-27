@@ -1,5 +1,7 @@
 This extension uses the Gemini API to automatically fill job application forms with your personal data. It features a draggable on-screen panel that lets you review the autofill plan before applying. It also includes a built-in chatbot that can answer questions about your professional profile on the fly.
 
+
+Needs a lot of improvement 
 -----
 
 ## Getting Started
